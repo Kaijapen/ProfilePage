@@ -12,10 +12,12 @@ body {
 h1 {
     margin-top: 50px;
     margin-left: 10px;
+    text-shadow: 2px 2px 5px darkmagenta;
 }
 
 h2 {
     font-size: 15pt;
+    text-shadow: 2px 2px 5px darkmagenta;
 }
 
 h3 {
@@ -44,6 +46,7 @@ h4 {
 
 .nav-title {
     color: aliceblue;
+    text-shadow: 2px 2px 5px pink;
 }
 
 
@@ -63,6 +66,10 @@ h4 {
     background-color: rgb(172, 108, 236);
     font-size: 15pt;
     box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .nav-links li {
@@ -97,12 +104,16 @@ h4 {
     background-image: linear-gradient(white, #AB46D2);
     border-width: 4px;
     margin: 20px;
+    padding-bottom: 8px;
 }
 
 /* info for top of the usercard */
 
 .topinfo {
     background: rebeccapurple;
+    border-style: solid;
+    border-color: rgb(243, 152, 199);
+    border-width: 4px;
     height: 80px;
 }
 
@@ -176,6 +187,7 @@ h4 {
     width: 120px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .editprof img {
@@ -187,22 +199,13 @@ h4 {
     border-style: outset;
     border-color: rgb(243, 152, 199);
     border-width: 4px;
-}
-
-.education {
-    width: 620px;
-    padding-bottom: 10px;
-}
-
-.edbar {
-    background-color: rebeccapurple;
-    margin: 0;
-    padding: 10px;
+    margin: 20px;
 }
 
 .ed {
     font-size: 17pt;
     padding: 5px;
+    text-shadow: 2px 2px 5px darkmagenta;
 }
 
 .date {
@@ -213,6 +216,18 @@ h4 {
 
 .education li{
     font-weight: 580;
+}
+
+.education {
+    padding-bottom: 10px;
+}
+
+.edbar {
+    padding: 10px;
+    background-color: rebeccapurple;
+    border-style: solid;
+    border-color: rgb(243, 152, 199);
+    border-width: 4px;
 }
 
 /* Right column info */
@@ -226,12 +241,52 @@ h4 {
 .friendreq {
     margin-top: 20px;
     margin-bottom: 20px;
+    background-image: linear-gradient(#AB46D2, white);
+    border-style: outset;
+    border-color: rgb(243, 152, 199);
+    border-width: 4px;
+    margin: 20px;
+}
+
+.topbg {
+    background-image: linear-gradient(white, #AB46D2 );
+    border-style: outset;
+    border-color: rgb(243, 152, 199);
+    border-width: 4px;
+}
+
+.req {
+    border-style: solid;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.friend {
+    margin: 0;
+    border-radius: 50%;
+    padding: 3px;
+    border-style: solid;
+    text-align: center;
+    font-weight: 600;
 
 }
 
 .reqtop {
+    margin: 0;
     padding: 8px;
     background-color: rebeccapurple;
+    border-style: solid;
+    border-color: rgb(243, 152, 199);
+    display: flex;
+}
+
+.reqtop h2 {
+    margin: 0;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .request {
@@ -273,4 +328,11 @@ h4 {
     height: 30px;
     margin-right: 5px;
     flex: 1;
+}
+
+#view {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(154, 95, 212);
 }
