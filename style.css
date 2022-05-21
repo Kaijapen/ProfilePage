@@ -233,12 +233,6 @@ h4 {
     padding: 8px;
     background-color: rebeccapurple;
 }
-/* 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-} */
 
 .request {
     display: flex;
