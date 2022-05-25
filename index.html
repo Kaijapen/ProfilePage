@@ -65,23 +65,23 @@
         <div class="pgright">
             <div class="friendreq topbg">
                 <div class="reqtop">
-                    <div class="req">2</div>
+                    <div class="req" id="reqnum">2</div>
                     <h2>Requests</h2>
                 </div>
-                <div class="request">
+                <div class="request" id="req1">
                     <a href="#"><img class="pic" src="images/Handsome Jack.jpg" alt="jack"></a>
                     <h3>Handsome Jack</h3>
                     <div class="icons">
-                        <a href="#"><img class='accept' src="icons/check.png" alt=""></a>
-                        <a href="#"><img class="accept" src="icons/close.png" alt=""></a>
+                        <a href="#"><img onclick="change1()" class='accept' src="icons/check.png" alt=""></a>
+                        <a onclick="change1()" href="#"><img class="accept" src="icons/close.png" alt=""></a>
                     </div>
                 </div>
-                <div class="request">
+                <div class="request" id="req2">
                     <a href="#"><img class="pic" src="images/claptrap-borderlands.gif" alt="jack"></a>
                     <h3>Claptrap</h3>
                     <div class="icons">
-                        <a href="#"><img class='accept' src="icons/check.png" alt=""></a>
-                        <a href="#"><img class="accept" src="icons/close.png" alt=""></a>
+                        <a href="#"><img onclick="change2()" class='accept' src="icons/check.png" alt=""></a>
+                        <a href="#"><img onclick="change2()" class="accept" src="icons/close.png" alt=""></a>
                     </div>
                         
                 </div>
@@ -91,7 +91,7 @@
                     <div class="friend">500+</div>
                     <h2>Friends</h2>
                 </div>
-                <div class="content">
+                <div class="content" id="content">
                     <div class="request">
                         <a href="#"><img class="pic" src="images/torgue.jpg" alt="jack"></a>
                         <h3>Mr. Torgue</h3>
@@ -125,6 +125,6 @@
             </div>
         </div>
     </div>
-        
+    <script src="script.js"></script>
 </body>
 </html>
