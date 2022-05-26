@@ -1,6 +1,7 @@
 function change1(){
     document.querySelector('#req1').remove();
     document.querySelector('#reqnum').innerText--;
+    
 }
 
 function change2(){
